@@ -1,0 +1,145 @@
+Check,Card # ,Card Name ,Type ,Rarity ,Value,Attribute ,Sub Type ,Level ,ATK ,DEF ,Card Text 
+,MRD-000 ,Gate Guardian ,Effect Monster ,Secret Rare ,,Dark ,Warrior ,11,3750,3400,"This card can only be Special Summoned by offering ""Sanga of the Thunder"", ""Kazejin"", and ""Suijin"" on your side of the field as a Tribute. "
+,MRD-001 ,Feral Imp ,Normal Monster ,Common ,,Dark ,Fiend ,4,1300,1400,"A playful little fiend that lurks in the dark, waiting to attack an unwary enemy. "
+,MRD-002 ,"Winged Dragon, Guardian of the Fortress #1 ",Normal Monster ,Common ,,Wind ,Dragon ,4,1400,1200,A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue. 
+,MRD-003 ,Summoned Skull ,Normal Monster ,Ultra Rare ,,Dark ,Fiend ,6,2500,1200,"A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts considerable force. "
+,MRD-004 ,Rock Ogre Grotto #1 ,Normal Monster ,Common ,,Earth ,Rock ,3,800,1200,"Protected by a solid body of rock, this monster throws a bone-shattering punch. "
+,MRD-005 ,Armored Lizard ,Normal Monster ,Common ,,Earth ,Reptile ,4,1500,1200,A lizard with a very though hide and a vicious bite. 
+,MRD-006 ,Killer Needle ,Normal Monster ,Common ,,Wind ,Insect ,4,1200,1000,A huge bee with exceptional strength that's particularly dangerous in a swarm. 
+,MRD-007 ,Larvae Moth ,Effect Monster ,Common ,,Earth ,Insect ,2,500,400,"This monster can only be Special Summoned by offering ""Petit Moth"" as a tribute on the 2nd of your turns after ""Petit Moth"" has been equipped with ""Cocoon of Evolution"". "
+,MRD-008 ,Harpie Lady ,Normal Monster ,Common ,,Wind ,Winged Beast ,4,1300,1400,This human-shaped animal with wings is beautiful to watch but deadly in battle. 
+,MRD-009 ,Harpie Lady Sisters ,Effect Monster ,Super Rare ,,Wind ,Winged Beast ,6,1950,2100,"This monster can only be Special Summoned with the Magic Card ""Elegant Egotist"". "
+,MRD-010 ,Kojikocy ,Normal Monster ,Common ,,Earth ,Warrior ,4,1500,1200,A man-hunter with powerful arms that can crush boulders. 
+,MRD-011 ,Cocoon of Evolution ,Effect Monster ,Common ,,Earth ,Insect ,3,0,2000,"You may treat this card as an Equip Magic Card on a face-up ""Petit Moth"" on the field. When equipped, the ATK and DEF of ""Petit Moth"" becomes the same as ""Cocoon of Evolution"". "
+,MRD-012 ,Crawling Dragon ,Normal Monster ,Common ,,Earth ,Dragon ,5,1600,1400,"This weakened dragon can no longer fly, but it is still a deadly force to be reckoned with. "
+,MRD-013 ,Armored Zombie ,Normal Monster ,Common ,,Dark ,Zombie ,3,1500,0,This warrior blindly swings a deadly blade with devastating force. 
+,MRD-014 ,Mask of Darkness ,Effect Monster ,Rare ,,Dark ,Fiend ,3,900,400,FLIP: Select 1 Trap Card from your Graveyard and return it to your hand. 
+,MRD-015 ,Doma the Angel of Silence ,Normal Monster ,Common ,,Dark ,Fairy ,5,1600,1400,This fairy rules over the end of existence. 
+,MRD-016 ,White Magical Hat ,Effect Monster ,Rare ,,Light ,Spellcaster ,3,1000,700,"When this card inflicts damage to your opponent's Life Points, 1 card must be discarded randomly from your opponent's Hand to the Graveyard. "
+,MRD-017 ,Big Eye ,Effect Monster ,Common ,,Dark ,Fiend ,4,1200,1000,"FLIP: See the 5 cards from the top of your deck, arrange them in the order desired, and replace them on top of your deck. "
+,MRD-018 ,B. Skull Dragon ,Fusion Monster ,Ultra Rare ,,Dark ,Dragon ,9,3200,2500,"""Summoned Skull"" + ""Red-Eyes B. Dragon"" "
+,MRD-019 ,Masked Sorcerer ,Effect Monster ,Rare ,,Dark ,Spellcaster ,4,900,1400,"When you inflict damage to your opponent's Life Points with this card, draw a card from your deck. "
+,MRD-020 ,Roaring Ocean Snake ,Fusion Monster ,Common ,,Water ,Aqua ,6,2100,1800,"""Mystic Lamp"" + ""Hyosube"" "
+,MRD-021 ,Water Omotics ,Normal Monster ,Common ,,Water ,Aqua ,4,1400,1200,Transforms the water overflowing from a jar into attacking dragons. 
+,MRD-022 ,Ground Attacker Bugroth ,Normal Monster ,Common ,,Earth ,Machine ,4,1500,1000,A surface battle robot that was once used for sea warfare. 
+,MRD-023 ,Petit Moth ,Normal Monster ,Common ,,Earth ,Insect ,1,300,200,This small but deadly creature is better of avoided. 
+,MRD-024 ,Elegant Egotist ,Spell ,Rare ,,,Normal ,,,,"When there are 1 or more ""Harpie Lady"" cards on the field. You can Special Summon 1 ""Harpie Lady"" or ""Harpie Lady Sisters"" from your hand or Deck. "
+,MRD-025 ,Sanga of the Thunder ,Effect Monster ,Super Rare ,,Light ,Thunder ,7,2600,2200,Reduce the ATK of an opponent's monster attacking this card to 0. This effect may only be used once. The card's owner chooses when to activate the effect. 
+,MRD-026 ,Kazejin ,Effect Monster ,Super Rare ,,Wind ,Spellcaster ,7,2400,2000,Reduce the ATK of an opponent's monster attacking this card to 0. This effect may only be used once. The card's owner chooses when to activate the effect. 
+,MRD-027 ,Suijin ,Effect Monster ,Super Rare ,,Water ,Aqua ,7,2500,2400,Reduce the ATK of an opponent's monster attacking this card to 0. This effect may only be used once. The card's owner chooses when to activate the effect. 
+,MRD-028 ,Mystic Lamp ,Effect Monster ,Common ,,Dark ,Spellcaster ,1,400,300,This monster may attack your opponent's Life Points directly. 
+,MRD-029 ,Steel Scorpion ,Effect Monster ,Common ,,Earth ,Machine ,1,250,300,"A non-Machine-Type Monster attacking ""Steel Scorpion"" will be destroyed at the End Phase of your opponent's 3rd turn after the attack. "
+,MRD-030 ,Ocubeam ,Normal Monster ,Common ,,Light ,Fairy ,5,1550,1650,"Frightening in appearance, this creature uses its large eyes and ears to keep track of any movement. "
+,MRD-031 ,Leghul ,Effect Monster ,Common ,,Earth ,Insect ,1,300,350,This monster may attack your opponent's Life Points directly. 
+,MRD-032 ,Ooguchi ,Effect Monster ,Common ,,Water ,Aqua ,1,300,250,This monster may attack your opponent's Life Points directly. 
+,MRD-033 ,Leogun ,Normal Monster ,Common ,,Earth ,Beast ,5,1750,1550,Huge monster with a lion's mane similar to the King of Beasts. 
+,MRD-034 ,Blast Juggler ,Effect Monster ,Common ,,Fire ,Machine ,3,800,900,Offer this card as a Tribute during your Standby Phase if face-up to destroy 2 face-up monsters with an ATK of 1000 or less. 
+,MRD-035 ,Jinzo #7 ,Effect Monster ,Common ,,Dark ,Machine ,2,500,400,This monster may attack your opponent's Life Points directly. 
+,MRD-036 ,Magician of Faith ,Effect Monster ,Rare ,,Light ,Spellcaster ,1,300,400,FLIP: Select 1 Magic Card from your Graveyard and return it to your hand. 
+,MRD-037 ,Ancient Elf ,Normal Monster ,Common ,,Light ,Spellcaster ,4,1450,1200,This elf is rumored to have lived for thousands of years. He leads an army of spirits against his enemies. 
+,MRD-038 ,Deapsea Shark ,Fusion Monster ,Common ,,Water ,Fish ,5,1900,1600,"""Bottom Dweller"" + ""Tongyo"" "
+,MRD-039 ,Bottom Dweller ,Normal Monster ,Common ,,Water ,Fish ,5,1650,1700,This is one sea creature whose wrath is something monsters fear to face. 
+,MRD-040 ,Destroyer Golem ,Normal Monster ,Common ,,Earth ,Rock ,4,1500,1000,A golem with a massive right hand for crushing its victims. 
+,MRD-041 ,Kaminari Attack ,Fusion Monster ,Common ,,Wind ,Thunder ,5,1900,1400,"""Ocubeam"" + ""Mega Thunderball"" "
+,MRD-042 ,Rainbow Flower ,Effect Monster ,Common ,,Earth ,Plant ,2,400,500,This monster may attack your opponent's Life Points directly. 
+,MRD-043 ,Morinphen ,Normal Monster ,Common ,,Dark ,Fiend ,5,1550,1300,A strange fiend with long arms and razor sharp talons. 
+,MRD-044 ,Mega Thunderball ,Normal Monster ,Common ,,Wind ,Thunder ,2,750,600,Rolls along the ground releasing bolts of electricity to attack its enemies. 
+,MRD-045 ,Tongyo ,Normal Monster ,Common ,,Water ,Fish ,4,1350,800,This monster captures other fish with its long tongue and sucks the energy out of them. 
+,MRD-046 ,Empress Judge ,Fusion Monster ,Common ,,Earth ,Warrior ,6,2100,1700,"""Queen's Double"" + ""Hibikime"" "
+,MRD-047 ,Pale Beast ,Normal Monster ,Common ,,Earth ,Beast ,4,1500,1200,"With skin tinged bluish-white, this strange creature is a fearsome sight to behold. "
+,MRD-048 ,Electric Lizard ,Effect Monster ,Common ,,Earth ,Thunder ,3,850,800,"A non Zombie-Type monster attacking ""Electric Lizard"" cannot attack on its following turn. "
+,MRD-049 ,Hunter Spider ,Normal Monster ,Common ,,Earth ,Insect ,5,1600,1400,This monster feeds on whatever it catches in its web. 
+,MRD-050 ,Ancient Lizard Warrior ,Normal Monster ,Common ,,Earth ,Reptile ,4,1400,1100,"Before the dawn of time, this lizard warrior reigned supreme. "
+,MRD-051 ,Queen's Double ,Effect Monster ,Common ,,Earth ,Warrior ,1,350,300,This monster may attack your opponent's Life Points directly. 
+,MRD-052 ,Trent ,Normal Monster ,Common ,,Earth ,Plant ,5,1500,1800,"A guardian of the woods, this massive tree is believed to be immortal. "
+,MRD-053 ,Disk Magician ,Normal Monster ,Common ,,Dark ,Machine ,4,1350,1000,This monster hides in a saucer and only appears when executing an attack. 
+,MRD-054 ,Hyosube ,Normal Monster ,Common ,,Water ,Aqua ,4,1500,900,"This amphibian is strong on the attack, but leaves much to be desired when defending. "
+,MRD-055 ,Hibikime ,Normal Monster ,Common ,,Earth ,Warrior ,4,1450,1000,Confuses enemies with a noise that is harsh to the ears. 
+,MRD-056 ,Fake Trap ,Trap ,Rare ,,,Normal ,,,,"When your opponent uses a Magic, Trap, or Effect Monster Card to destroy your Trap Card(s), this card can be destroyed as a substitute for your Trap Cards(s). "
+,MRD-057 ,Tribute to the Doomed ,Spell ,Super Rare ,,,Normal ,,,,Discard 1 card from your hand to the Graveyard to destroy 1 Monster Card on the Field (regardless of position). 
+,MRD-058 ,Soul Release ,Spell ,Common ,,,Normal ,,,,Select up to 5 cards from either you or your opponent's Graveyard and remove them from the current Duel. 
+,MRD-059 ,The Cheerful Coffin ,Spell ,Common ,,,Normal ,,,,You can discard up to 3 Monster Cards from your hand to the Graveyard. 
+,MRD-060 ,Change of Heart ,Spell ,Ultra Rare ,,,Normal ,,,,Select and control 1 opposing monster (regardless of position) on the field until the end of your turn. 
+,MRD-061 ,Baby Dragon ,Normal Monster ,Common ,,Wind ,Dragon ,3,1200,700,"Much more than just a child, this dragon is gifted with untapped power. "
+,MRD-062 ,Blackland Fire Dragon ,Normal Monster ,Common ,,Dark ,Dragon ,4,1500,800,"A dragon that dwells in the depths of darkness, its vulnerability lies in its poor eyesight. "
+,MRD-063 ,Swamp Battleguard ,Effect Monster ,Common ,,Earth ,Warrior ,5,1800,1500,"Increase the ATK of this monster by 500 points for every face-up ""Lava Battleguard"" on your side of the Field. "
+,MRD-064 ,Battle Steer ,Normal Monster ,Common ,,Earth ,Beast-Warrior ,5,1800,1300,"A bull monster often found in the woods, it charges enemies with a pair of deadly horns. "
+,MRD-065 ,Time Wizard ,Effect Monster ,Ultra Rare ,,Light ,Spellcaster ,2,500,400,"Toss a coin and call Heads or Tails. If you call it right, your opponent's monsters on the Field are destroyed. If you call it wrong, your own monsters on the Field are destroyed and you lose Life Points equal to half the total ATK of the destroyed monsters. This card can be used only during your own turn, once per turn. "
+,MRD-066 ,Saggi the Dark Clown ,Normal Monster ,Common ,,Dark ,Spellcaster ,3,600,1500,This clown appears from nowhere and executes very strange moves to avoid enemy attacks. 
+,MRD-067 ,Dragon Piper ,Effect Monster ,Common ,,Fire ,Pyro ,3,200,1800,"FLIP: Destroys ""Dragon Capture Jar"" and turns all face-up Dragon-Type monsters to Attack Position. "
+,MRD-068 ,Illusionist Faceless Mage ,Normal Monster ,Common ,,Dark ,Spellcaster ,5,1200,2200,Manipulates enemy attacks with the power of illusions. 
+,MRD-069 ,Sangan ,Effect Monster ,Rare ,,Dark ,Fiend ,3,1000,600,"When this card is sent from the Field to the Graveyard, move 1 monster with an ATK of 1500 or less from your Deck to your hand. Your deck is then shuffled. "
+,MRD-070 ,Great Moth ,Effect Monster ,Rare ,,Earth ,Insect ,8,2600,2500,"This monster can only be Special Summoned by offering ""Petit Moth"" as a Tribute on the 4th of your turns after ""Petit Moth"" has been equipped with ""Cocoon of Evolution"". "
+,MRD-071 ,Kuriboh ,Effect Monster ,Super Rare ,,Dark ,Fiend ,1,300,200,Discard this card from your hand to the Graveyard to make the damage inflicted to your Life Points by 1 opponent's monster 0. This effect must be activated during your opponent's Battle Phase. 
+,MRD-072 ,Jellyfish ,Normal Monster ,Common ,,Water ,Aqua ,4,1200,1500,"An almost invisible, semi-transparent jellyfish that drifts in the sea. "
+,MRD-073 ,Castle of Dark Illusions ,Effect Monster ,Common ,,Dark ,Fiend ,4,920,1930,"FLIP: Increases the ATK and DEF of all Zombie-Type monsters by 200 points. As long as this card remains face-up on the field, the ATK and DEF of Zombie-Type monsters continues to increase by 200 points during each of your Standby Phases. This effect continues until your 4th turn after this card is activated. "
+,MRD-074 ,King of Yamimakai ,Normal Monster ,Common ,,Dark ,Fiend ,5,2000,1530,Wields the power of darkness to destroy its enemies. 
+,MRD-075 ,Catapult Turtle ,Effect Monster ,Super Rare ,,Water ,Aqua ,5,1000,2000,Offer 1 monster on your side of the Field as a Tribute to inflict Direct Damage equal to half of the Tribute monster's ATK to your opponent's Life Points. Monsters used for a Tribute Summon or that are offered as Tributes due to other card's effects are excluded. 
+,MRD-076 ,Mystic Horseman ,Normal Monster ,Common ,,Earth ,Beast ,4,1300,1550,"Half man and half horse, this monster is known for its extreme speed. "
+,MRD-077 ,Rabid Horseman ,Fusion Monster ,Common ,,Earth ,Beast-Warrior ,6,2000,1700,"""Battle Ox"" + ""Mystic Horseman"" "
+,MRD-078 ,Crass Clown ,Effect Monster ,Common ,,Dark ,Fiend ,4,1350,1400,"When this card is changed from Attack Position to Defense Position, return 1 monster on your opponent's side of the Field to the owner's hand. "
+,MRD-079 ,Pumpking the King of Ghosts ,Effect Monster ,Common ,,Dark ,Zombie ,6,1800,2000,"If ""Castle of Dark Illusions"" is face-up on the Field, increase the ATK and DEF of this card by 900 points. As long this ""Castle of Dark Illusions"" remains face-up on the Field, the ATK and DEF of this card continues to increase by 100 points during each of your Standby Phases. This effect continues until your 4th turn after this card is activated. "
+,MRD-080 ,Dream Clown ,Effect Monster ,Common ,,Earth ,Warrior ,3,1200,900,"When this card is changed from Attack Position to Defense Position, select and destroy 1 monster on your opponent's side of the field. "
+,MRD-081 ,Tainted Wisdom ,Effect Monster ,Common ,,Dark ,Fiend ,3,1250,800,"When this card is changed from Attack Position to Defense Position, shuffle your own Deck. "
+,MRD-082 ,Ancient Brain ,Normal Monster ,Common ,,Dark ,Fiend ,3,1000,700,A fallen fairy that is powerful in the dark. 
+,MRD-083 ,Guardian of the Labyrinth ,Normal Monster ,Common ,,Earth ,Warrior ,4,1000,1200,A monster that guards the entrance to the Netherworld. 
+,MRD-084 ,Prevent Rat ,Normal Monster ,Common ,,Earth ,Beast ,4,500,2000,This creature is shielded with a tough hide of hair and is excellent at defending itself. 
+,MRD-085 ,The Little Swordsman of Aile ,Effect Monster ,Common ,,Water ,Warrior ,3,800,1300,Offer 1 monster on your side of the Field as a Tribute to increase this monster's ATK by 700 points until the end of the turn. 
+,MRD-086 ,Princess of Tsurugi ,Effect Monster ,Rare ,,Wind ,Warrior ,3,900,700,FLIP: Inflicts 500 points of Direct Damage to your opponent's Life Points for each Magic and Trap Card your opponent has on the Field. 
+,MRD-087 ,Protector of the Throne ,Normal Monster ,Common ,,Earth ,Warrior ,4,800,1500,"While the king is away, this queen protects his throne with a mighty defense. "
+,MRD-088 ,Tremendous Fire ,Spell ,Common ,,,Normal ,,,,Inflict 1000 points of Direct Damage to your opponent's Life Points and 500 points of Direct Damage to your Life Points. 
+,MRD-089 ,Jirai Gumo ,Effect Monster ,Common ,,Earth ,Insect ,4,2200,100,"When you attack with this card, toss a coin and call it. If you call it right, attack normally. If you call it wrong, reduce your Life Points by half before attacking. "
+,MRD-090 ,Shadow Ghoul ,Effect Monster ,Rare ,,Dark ,Zombie ,5,1600,1300,Increase the ATK of this monster by 100 points for each monster in your Graveyard. 
+,MRD-091 ,Labyrinth Tank ,Fusion Monster ,Common ,,Dark ,Machine ,7,2400,2400,"""Giga Tech Wolf"" + ""Cannon Soldier"" "
+,MRD-092 ,Ryu-Kishin Powered ,Normal Monster ,Common ,,Dark ,Fiend ,4,1600,1200,A gargoyle enhanced by the powers of darkness. Very sharp talons make it a worthy opponent. 
+,MRD-093 ,Bickuribox ,Fusion Monster ,Common ,,Dark ,Fiend ,7,2300,2000,"""Crass Clown"" + ""Dream Clown"" "
+,MRD-094 ,Giltia the D. Knight ,Fusion Monster ,Common ,,Light ,Warrior ,5,1850,1500,"""Guardian of the Labyrinth"" + ""Protector of the Throne"" "
+,MRD-095 ,Launcher Spider ,Normal Monster ,Common ,,Fire ,Machine ,7,2200,2500,A mechanical spider with rocket launchers capable of random fire. 
+,MRD-096 ,Giga-Tech Wolf ,Normal Monster ,Common ,,Fire ,Machine ,4,1200,1400,An iron wolf with razor-sharp fangs that can penetrate any armor. 
+,MRD-097 ,Thunder Dragon ,Effect Monster ,Common ,,Light ,Thunder ,5,1600,1500,"Discard this card from your hand to the Graveyard to add up to 2 ""Thunder Dragon"" cards from your deck to your hand. This effect is only activated during a Main Phase. "
+,MRD-098 ,7 Colored Fish ,Normal Monster ,Common ,,Water ,Fish ,4,1800,800,A rare rainbow fish that has never been caught by mortal man. 
+,MRD-099 ,The Immortal of Thunder ,Effect Monster ,Common ,,Light ,Thunder ,4,1500,1300,"FLIP: You gain 3000 Life Points. After this card is flipped, you lose 5000 Life Points when it is sent from the Field to the Graveyard. "
+,MRD-100 ,Punished Eagle ,Fusion Monster ,Common ,,Wind ,Winged Beast ,6,2100,1800,"""Blue-Winged Crown"" + ""Niwatori"" "
+,MRD-101 ,Insect Soldiers of the Sky ,Effect Monster ,Common ,,Wind ,Insect ,3,1000,800,The ATK of this card increases by 1000 points whenever it attacks a Wind monster. 
+,MRD-102 ,Hoshiningen ,Effect Monster ,Rare ,,Light ,Fairy ,2,500,700,"As long as this card remains face-up on the Field, increase the ATK of all Light monsters by 500 points and decreases the ATK of all Dark monsters by 400 points. "
+,MRD-103 ,Musician King ,Fusion Monster ,Common ,,Light ,Spellcaster ,5,1750,1500,"""Witch of the Black Forest"" + ""Lady of Faith"" "
+,MRD-104 ,Yado Karu ,Effect Monster ,Common ,,Water ,Aqua ,4,900,1700,"When this card is changed from Defense Position to Attack Position, you can place any number of cards from your hand at the bottom of your Deck in any order you desire. "
+,MRD-105 ,Cyber Saurus ,Fusion Monster ,Common ,,Earth ,Machine ,5,1800,1400,"""Blast Juggler"" + ""Two-Headed King Rex"" "
+,MRD-106 ,Cannon Soldier ,Effect Monster ,Rare ,,Dark ,Machine ,4,1400,1300,Offer 1 monster on your side of the Field as a Tribute to inflict 500 points of Direct Damage to your opponent's Life Points. Monsters used for a Tribute Summon or that are offered as Tributes due to other card's effects are excluded. 
+,MRD-107 ,Muka Muka ,Effect Monster ,Rare ,,Earth ,Rock ,2,600,300,Increase the ATK and DEF of this card by 300 points for every card in your hand. 
+,MRD-108 ,The Bistro Butcher ,Effect Monster ,Common ,,Dark ,Fiend ,4,1800,1000,"When this card inflicts damage to your opponent, your opponent must draw 2 cards from his/her Deck. "
+,MRD-109 ,Star Boy ,Effect Monster ,Rare ,,Water ,Aqua ,2,550,500,"As long as this card remains face-up on the Field, increase the ATK of all Water monsters by 500 points and decreases the ATK of all Fire monsters by 400 points. "
+,MRD-110 ,Milus Radiant ,Effect Monster ,Rare ,,Earth ,Beast ,1,300,250,"As long as this card remains face-up on the Field, increase the ATK of all Earth monsters by 500 points and decreases the ATK of all Wind monsters by 400 points. "
+,MRD-111 ,Flame Cerberus ,Normal Monster ,Common ,,Fire ,Pyro ,6,2100,1800,"Known to many as the ""Burning Executioner"", this monster is capable of burning enemies to cinders. "
+,MRD-112 ,Niwatori ,Normal Monster ,Common ,,Earth ,Winged Beast ,3,900,800,Swallows enemies whole and uses their essence as energy. 
+,MRD-113 ,Dark Elf ,Effect Monster ,Rare ,,Dark ,Spellcaster ,4,2000,800,This card requires a cost of 1000 of your own Life Points to attack. 
+,MRD-114 ,Mushroom Man #2 ,Effect Monster ,Common ,,Earth ,Warrior ,3,1250,800,A player controlling this monster loses 300 Life Points during each of his/her Standby Phases when this card is on the Field. Control of this card is shifted to your opponent by paying 500 Life Points at your End Phase. 
+,MRD-115 ,Lava Battleguard ,Effect Monster ,Common ,,Earth ,Warrior ,5,1550,1800,"Increase the ATK of this monster by 500 points for every face-up ""Swamp Battleguard"" on your side of the Field. "
+,MRD-116 ,Witch of the Black Forest ,Effect Monster ,Rare ,,Dark ,Spellcaster ,4,1100,1200,"When this card is sent from the Field to the Graveyard, move 1 monster with an DEF of 1500 or less from your Deck to your hand. Your deck is then shuffled. "
+,MRD-117 ,Little Chimera ,Effect Monster ,Rare ,,Fire ,Beast ,2,600,550,"As long as this card remains face-up on the Field, increase the ATK of all Fire monsters by 500 points and decreases the ATK of all Water monsters by 400 points. "
+,MRD-118 ,Bladefly ,Effect Monster ,Rare ,,Wind ,Insect ,2,600,700,"As long as this card remains face-up on the Field, increase the ATK of all Wind monsters by 500 points and decreases the ATK of all Earth monsters by 400 points. "
+,MRD-119 ,Lady of Faith ,Normal Monster ,Common ,,Light ,Spellcaster ,3,1100,800,Soothes the souls of others by chanting a mysterious spell. 
+,MRD-120 ,Twin-Headed Thunder Dragon ,Fusion Monster ,Super Rare ,,Light ,Thunder ,7,2800,2100,"""Thunder Dragon"" + ""Thunder Dragon"" "
+,MRD-121 ,Witch's Apprentice ,Effect Monster ,Rare ,,Dark ,Spellcaster ,2,550,500,"As long as this card remains face-up on the Field, increase the ATK of all Dark monsters by 500 points and decreases the ATK of all Light monsters by 400 points. "
+,MRD-122 ,Blue-Winged Crown ,Normal Monster ,Common ,,Wind ,Winged Beast ,4,1600,1200,"With hair shaped like a crown and a body incased in bluish white flames, this bird is a formidable sight. "
+,MRD-123 ,Skull Knight ,Fusion Monster ,Common ,,Dark ,Spellcaster ,7,2650,2250,"""Tainted Wisdom"" + ""Ancient Brain"" "
+,MRD-124 ,Gazelle the King of Mythical Beasts ,Normal Monster ,Common ,,Earth ,Beast ,4,1500,1200,This monster moves so fast that it looks like an illusion to mortal eyes. 
+,MRD-125 ,Garnecia Elefantis ,Normal Monster ,Super Rare ,,Earth ,Beast-Warrior ,7,2400,2000,A monster so heavy that each step rocks the earth. 
+,MRD-126 ,Barrel Dragon ,Effect Monster ,Ultra Rare ,,Dark ,Machine ,7,2600,2200,"Toss a coin 3 times. If 2 out of 3 results are Heads, destroy 1 monster on your opponent's side of the Field. This card's effect can only be used during your own turn once per turn. "
+,MRD-127 ,Solemn Judgment ,Trap ,Ultra Rare ,,,Counter ,,,,Pay half of your Life Points when your opponent either activates a Magic or Trap Card or summons a monster (including Special Summon) to negate the action and destroy the cards involved. 
+,MRD-128 ,Magic Jammer ,Trap ,Ultra Rare ,,,Counter ,,,,Discard 1 card from your hand to the Graveyard to negate the activation of a Magic Card and destroy it. 
+,MRD-129 ,Seven Tools of the Bandit ,Trap ,Ultra Rare ,,,Counter ,,,,Pay 1000 of your Life Points to negate the activation of a Magic Card and destroy it. 
+,MRD-130 ,Horn of Heaven ,Trap ,Ultra Rare ,,,Counter ,,,,Offer 1 of your own monsters on the Field as a Tribute to negate the summon (including Special Summon) of a monster and destroy it. 
+,MRD-131 ,Shield & Sword ,Spell ,Rare ,,,Normal ,,,,"For 1 turn, each face-up monster's original ATK becomes their original DEF and vice-versa. Any additions or subtractions to ATK and/or DEF due to card effects are applied to the new ATK and DEFusion Monsters summoned after this card's activation are excluded. "
+,MRD-132 ,Sword of Deep-Seated ,Spell ,Common ,,,Equip ,,,,"A Monster Card equipped with this card increases its ATK and DEF by 500 points. When this card is sent to the Graveyard, place it on top of your Deck. "
+,MRD-133 ,Block Attack ,Spell ,Common ,,,Normal ,,,,Select 1 of your opponent's monsters and shift it to Defense Position. 
+,MRD-134 ,The Unhappy Maiden ,Effect Monster ,Common ,,Light ,Spellcaster ,1,0,100,"When this card is sent to the Graveyard as a result of battle, the Battle Phase for that turn end immediately. "
+,MRD-135 ,Robbin' Goblin ,Trap ,Rare ,,,Continuous ,,,,"Each time 1 of your monsters inflicts damage to your opponent's Life Points, 1 card is randomly selected from your opponent's hand and discarded to the Graveyard. "
+,MRD-136 ,Germ Infection ,Spell ,Common ,,,Equip ,,,,The ATK of a non Machine-Type monster equipped with this card is decreased by 300 points at each of its Standby Phases. 
+,MRD-137 ,Paralyzing Potion ,Spell ,Common ,,,Equip ,,,,A non Machine-Type monster equipped with this card cannot attack. 
+,MRD-138 ,Mirror Force ,Trap ,Ultra Rare ,,,Normal ,,,,"When an opponent's monster attacks, negate the attack and destroy all opponent's monsters in Attack Position. "
+,MRD-139 ,Ring of Magnetism ,Spell ,Common ,,,Equip ,,,,A monster equipped with this card decreases its ATK and DEF by 500 points. All your opponent's monsters must attack the monster equipped with this card. 
+,MRD-140 ,Share the Pain ,Spell ,Common ,,,Normal ,,,,Offer 1 monster on your side of the Field as a Tribute. Your opponent must select 1 monster on his/her side of the Field and offer it as a Tribute. 
+,MRD-141 ,Stim-Pack ,Spell ,Common ,,,Equip ,,,,A monster equipped with this card increases its ATK by 700 points. Its ATK is then decreased by 200 points at each of its Standby Phases. 
+,MRD-142 ,Heavy Storm ,Spell ,Super Rare ,,,Normal ,,,,Destroys all Magic and Trap Cards on the Field. 
+,MRD-143 ,Thousand Dragon ,Fusion Monster ,Secret Rare ,,Wind ,Dragon ,7,2400,2000,"""Time Wizard"" + ""Baby Dragon"" "

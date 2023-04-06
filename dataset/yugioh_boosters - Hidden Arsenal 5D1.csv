@@ -1,0 +1,36 @@
+Check,Card # ,Card Name ,Type ,Rarity ,Value,Attribute ,Sub Type ,Level ,ATK ,DEF ,Card Text 
+,HA01-EN001 ,"Blizzed, Defender of the Ice Barrier ",Effect Monster ,Secret Rare ,,Water ,Aqua ,1,300,500,"When this card is destroyed by battle and sent to the Graveyard, draw 1 card. "
+,HA01-EN002 ,Blizzard Warrior ,Effect Monster ,Super Rare ,,Water ,Warrior ,3,1400,400,"If this card destroys an opponent's monster by battle, look at the top card of their Deck, then return it to either the top or bottom of their Deck. "
+,HA01-EN003 ,Cryomancer of the Ice Barrier ,Tuner Monster ,Secret Rare ,,Water ,Aqua ,2,1300,0,"While you control another ""Ice Barrier"" monster, Level 4 or higher monsters cannot declare an attack. "
+,HA01-EN004 ,Mist Valley Thunderbird ,Effect Monster ,Secret Rare ,,Wind ,Thunder ,3,1100,700,"When this face-up card on the field returns to the hand, Special Summon it. This card cannot attack during the Turn it was Special Summoned by this effect. "
+,HA01-EN005 ,Mist Valley Shaman ,Tuner Monster ,Secret Rare ,,Wind ,Winged-Beast ,3,1200,1200,"Once per turn, you can return 1 other monster you control to the hand, to have this card gain 500 ATK until the End Phase. "
+,HA01-EN006 ,Mist Valley Soldier ,Tuner Monster ,Secret Rare ,,Wind ,Winged-Beast ,4,1700,300,"While you control this face-up card, any opponent's monster that battles this card, but is not destroyed by battle, returns to its owner's hand at the end of the Damage Step. "
+,HA01-EN007 ,Flamvell Dragnov ,Effect Monster ,Super Rare ,,Fire ,Dragon ,2,1100,200,"When this card is destroyed by battle and sent to the Graveyard, inflict 500 damage to your opponent. You can remove from play this card in your Graveyard, along with 1 face-up FIRE monster you control, to add 1 ""Flamvell Dragnov"" from your Deck to your hand. "
+,HA01-EN008 ,Flamvell Magician ,Tuner Monster ,Super Rare ,,Fire ,Spellcaster ,4,1400,200,"While you control an ""Ally of Justice"" monster(s), this card gains 400 ATK. "
+,HA01-EN009 ,Flamvell Guard ,Tuner Monster ,Super Rare ,,Fire ,Dragon ,1,100,2000,A Flamvell guardian who commands fire with his will. His magma-hot barrier protects his troops from intruders. 
+,HA01-EN010 ,X-Saber Axel ,Effect Monster ,Super Rare ,,Earth ,Warrior ,1,400,100,"While you control this face-up card, when a ""Saber"" monster is destroyed by battle and sent to the Graveyard, draw 1 card. "
+,HA01-EN011 ,X-Saber Airbellum ,Tuner Monster ,Secret Rare ,,Earth ,Beast ,3,1600,200,"When this card inflicts Battle Damage to your opponent by a direct attack, discard 1 random card from your opponent's hand. "
+,HA01-EN012 ,X-Saber Uruz ,Effect Monster ,Super Rare ,,Earth ,Beast-Warrior ,4,1600,100,"When this card destroys an opponent's monster by battle and sends it to the Graveyard, you can Tribute this card to return the destroyed card to the top of its owner's Deck. "
+,HA01-EN013 ,"Commander Gottoms, Swordmaster ",Effect Monster ,Secret Rare ,,Earth ,Beast-Warrior ,6,2100,1600,"All face-up ""Saber"" monsters you control gain 400 ATK. "
+,HA01-EN014 ,Ally of Justice Clausolas ,Normal Monster ,Super Rare ,,Dark ,Machine ,6,2300,1200,"A mighty monster in Mist Valley, and the ultimate weapon designed from Claiomh Solias. Its surprise attacks from above baffle invaders. "
+,HA01-EN015 ,Ally of Justice Garadholg ,Effect Monster ,Super Rare ,,Dark ,Machine ,4,1600,400,"If this card battles a LIGHT monster, it gains 200 ATK during the Damage Step only. "
+,HA01-EN016 ,Ally of Justice Rudra ,Effect Monster ,Super Rare ,,Dark ,Machine ,5,1900,1200,"f this card battles a LIGHT monster, it gains 700 ATK during the Damage Step only. "
+,HA01-EN017 ,Worm Apocalypse ,Effect Monster ,Super Rare ,,Light ,Reptile ,1,300,200,FLIP: Destroy 1 Spell or Trap Card 
+,HA01-EN018 ,Worm Barses ,Effect Monster ,Super Rare ,,Light ,Reptile ,3,1400,1500,"When this card is Normal Summoned, change 1 Defense Position monster to face-up Attack Position. "
+,HA01-EN019 ,Worm Cartaros ,Effect Monster ,Super Rare ,,Light ,Reptile ,4,1200,500,"FLIP: Add 1 Level 4 or lower Reptile-Type monster ""Worm"" from your Deck to your hand. "
+,HA01-EN020 ,Worm Dimikles ,Effect Monster ,Super Rare ,,Light ,Reptile ,4,1700,1400,FLIP: This card gains 300 ATK and DEF. 
+,HA01-EN021 ,Worm Erokin ,Effect Monster ,Secret Rare ,,Light ,Reptile ,6,2400,1200,"This card cannot be Special Summoned. Once per turn, select 1 face-up Reptile-Type ""Worm"" monster on the field and change it into face-down Defense Position. "
+,HA01-EN022 ,"Brionac, Dragon of the Ice Barrier ",Synchro/Effect Monster ,Secret Rare ,,Water ,Sea Serpent ,6,2300,1400,"1 Tuner + 1 or more non-Tuner monsters.
+You can discard any number of cards to the Graveyard to return the same number of cards from the field to the hand. "
+,HA01-EN023 ,Mist Wurm ,Synchro/Effect Monster ,Secret Rare ,,Wind ,Thunder ,9,2500,1500,"1 Tuner + 2 or more non-Tuner monsters.
+When this card is Synchro Summoned, return up to 3 cards your opponent controls to the hand. "
+,HA01-EN024 ,Flamvell Uruquizas ,Synchro/Effect Monster ,Secret Rare ,,Fire ,Pyro ,6,2100,400,"1 Tuner + 1 or more non-Tuner monsters.
+During battle between this attacking card and a Defense Position monster whose DEF is lower than the ATK of this card, inflict the difference as Battle Damage to your opponent. This card gains 300 ATK each time it inflicts Battle Damage to your opponent. "
+,HA01-EN025 ,X-Saber Urbellum ,Synchro/Effect Monster ,Secret Rare ,,Earth ,Warrior ,7,2200,1300,"1 Tuner + 1 or more non-Tuner monsters.
+When this card inflicts Battle Damage to your opponent, while they have 4 or more cards in their hand, place 1 random card from their hand on top of their Deck. "
+,HA01-EN026 ,Ally of Justice Catastor ,Synchro/Effect Monster ,Secret Rare ,,Dark ,Machine ,5,2200,1200,"1 Tuner + 1 or more non-Tuner monsters.
+If this card battles a non-DARK monster, destroy that monster without applying damage calculation. "
+,HA01-EN027 ,Wrath of Neos ,Spell ,Secret Rare ,,,Normal ,,,,"Select 1 face-up ""Elemental Hero Neos"" you control. Return it to the Deck and destroy all cards on the field. "
+,HA01-EN028 ,Detonate ,Spell ,Super Rare ,,,Quick-Play ,,,,"Destroy all face-up ""Kuriboh"" and ""Kuriboh Tokens"" you control, along with a number of cards your opponent controls, up to the number of ""Kuriboh"" and ""Kuriboh Tokens"" destroyed by this effect. "
+,HA01-EN029 ,Berserker Crush ,Spell ,Super Rare ,,,Quick-Play ,,,,"Remove from play 1 monster from your Graveyard. The ATK and DEF of 1 face-up ""Winged Kuriboh"" you control become equal to the ATK and DEF of that monster, until the End Phase of this turn. "
+,HA01-EN030 ,Evolution Burst ,Spell ,Secret Rare ,,,Normal ,,,,"Activate only while you control a face-up ""Cyber Dragon""(s). Destroy 1 card your opponent controls. ""Cyber Dragon"" cannot attack the turn you activate this card. "
