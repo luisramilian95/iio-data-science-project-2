@@ -17,22 +17,25 @@ def handler(event, context):
 
   rows = []
 
-  print(result)
 
   for row in result:
+
     row_dict = {
       'booster_id' : row[0],
       'booster_name' : row[1],
       'card_number' : row[2],
+      
       'card_name' : row[3],
       'card_type' : row[4],
       'card_rarity' : row[5],
-      'card_attribute' : row[6],
-      'card_sub_type' : row[7],
-      'card_level' : row[8],
-      'card_attack': row[9],
-      'card_defense' : row[10],
-      'card_text' : row[11]
+      
+      'card_attribute' : row[7],
+      'card_sub_type' : row[8],
+      
+      'card_level' : row[9],
+      'card_attack': row[10],
+      'card_defense' : row[11],
+      'card_text' : row[12]
     }
 
     rows.append(row_dict)
