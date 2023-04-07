@@ -7,6 +7,14 @@ provider:
   runtime: python3.9
   region: us-east-2
   stage: dev
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:*"
+      Resource:
+        - { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "BucketS3" } ]]}
+        - "arn:aws:s3:::yugioh-dataset/*"
+
   environment:
     db_host: 
        Fn::GetAtt:
@@ -20,6 +28,7 @@ provider:
 functions:
   load:
     handler: lambda/load.handler
+    timeout: 350
     events:
       - s3:
           bucket: yugioh-dataset
@@ -28,6 +37,13 @@ functions:
             - prefix: dataset/
             - suffix: .csv
           existing: true 
+    vpc:
+      securityGroupIds:
+        - Fn::GetAtt: 
+          - ServerlessSecurityGroup
+          - GroupId
+      subnetIds:
+        - Ref: SubnetPrivate1
 
   create:
     handler: lambda/create.handler
