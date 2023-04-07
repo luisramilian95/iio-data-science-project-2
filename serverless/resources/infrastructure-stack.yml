@@ -1,0 +1,229 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Description: 'Data Science Yugioh Dataset'
+Resources:
+
+######################################################################
+#                              VPC
+######################################################################
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      Tags:
+        - Key: Name
+          Value: vpc-data-science-yugioh-2
+
+######################################################################
+#                              subnets
+######################################################################
+
+  SubnetPublic:
+      Type: AWS::EC2::Subnet
+      Properties:
+        VpcId:
+          Ref: VPC
+        CidrBlock: 10.0.1.0/24
+        AvailabilityZone: 'us-east-2a'
+        Tags:
+        - Key: Name
+          Value: subnet-public-1
+
+  SubnetPrivate1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId:
+        Ref: VPC
+      CidrBlock: 10.0.3.0/24
+      AvailabilityZone: 'us-east-2a'
+      Tags:
+      - Key: Name
+        Value: subnet-private-1
+
+  SubnetPrivate2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId:
+        Ref: VPC
+      CidrBlock: 10.0.4.0/24
+      AvailabilityZone: 'us-east-2b'
+      Tags:
+      - Key: Name
+        Value: subnet-private-2
+
+######################################################################
+#                         Internet Gateway
+######################################################################
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+      - Key: Name
+        Value: igw
+
+  IGAttachment :
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      InternetGatewayId:
+        Ref: InternetGateway
+      VpcId:
+        Ref: VPC
+
+######################################################################
+#                            Route Table
+######################################################################
+
+  RouteTablePublic:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: VPC
+      Tags:
+        - Key: Name
+          Value: route-table-public
+
+  RoutePublic:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId:
+        Ref: RouteTablePublic
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId:
+        Ref: InternetGateway
+
+  SubnetPublicRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId:
+        Ref: SubnetPublic
+      RouteTableId:
+        Ref: RouteTablePublic
+
+  RouteTablePrivate:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: VPC
+      Tags:
+        - Key: Name
+          Value: route-table-private
+
+
+  SubnetPrivate1RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId:
+        Ref: SubnetPrivate1
+      RouteTableId:
+        Ref: RouteTablePrivate
+
+
+  SubnetPrivate2RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId:
+        Ref: SubnetPrivate2
+      RouteTableId:
+        Ref: RouteTablePrivate
+
+################################################################################
+#                                  NAT Gateway
+#                                   Private
+################################################################################
+
+  NatGateway:
+    Type: AWS::EC2::NatGateway
+    DependsOn: NatEIP
+    Properties:
+      AllocationId:
+        Fn::GetAtt:
+        - NatEIP
+        - AllocationId
+      SubnetId:
+        Ref: SubnetPublic
+
+  NatEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+
+  NatRoute:
+    Type: AWS::EC2::Route
+    DependsOn: NatGateway
+    Properties:
+      RouteTableId:
+        Ref: RouteTablePrivate
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId:
+        Ref: NatGateway
+
+  ServerlessSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      VpcId:
+        Ref: VPC
+      GroupDescription: Security Group para HTTP y MySQL
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 22
+          ToPort: 22
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 80
+          ToPort: 80
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 443
+          ToPort: 443
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 3306
+          ToPort: 3306
+
+  DBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: SubnetGroup para RDS de MySQL
+      SubnetIds:
+        - Ref: SubnetPrivate1
+        - Ref: SubnetPrivate2
+      Tags:
+        - Key: Name
+          Value: database-subnet-group
+
+  DatabaseInstance:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      DBName: "yugioh_data_warehouse"
+      Engine: MySQL
+      MasterUsername: root
+      MasterUserPassword: admin#root1003.
+      DBInstanceClass: db.t2.micro
+      AllocatedStorage: '5'
+      DBSubnetGroupName:
+        Ref: DBSubnetGroup
+      VPCSecurityGroups:
+        - Ref: DatabaseSG
+
+  DatabaseSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security Group para RDS
+      VpcId:
+        Ref: VPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3306
+          ToPort: 3306
+          CidrIp: 0.0.0.0/0
+
+######################################################################
+#                              Bucket
+######################################################################
+
+  BucketS3:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: 'PublicRead'
+      BucketName: 'yugioh-dataset'
