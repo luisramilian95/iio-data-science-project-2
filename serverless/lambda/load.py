@@ -39,14 +39,14 @@ def handler(event, context) :
 
         if len(result) != 0 :
             continue
+
+        print('loading data')
     
         data = s3Client.get_object(Bucket=bucket_name,  Key=file_name)['Body']
         data = data.read().decode('utf-8').splitlines()
-        print(data)
         
         yugioh_data = csv.reader(data) 
         headers = next(yugioh_data) 
-        print('headers: %s' % (headers)) 
         
         for row in yugioh_data: 
 
@@ -75,5 +75,8 @@ def handler(event, context) :
                 card_sub_type, card_level, card_attack, card_defense, card_text)
                 
             cursor.execute(sql, val)
+
+
+        print('ending')
 
         db.commit()
