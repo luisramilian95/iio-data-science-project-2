@@ -195,7 +195,7 @@ Resources:
   DatabaseInstance:
     Type: AWS::RDS::DBInstance
     Properties:
-      DBName: "yugioh_data_warehouse"
+      DBName: yugioh_data_warehouse
       Engine: MySQL
       MasterUsername: root
       MasterUserPassword: admin#root1003.
