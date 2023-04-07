@@ -55,9 +55,9 @@ def handler(event, context) :
 
             card_type = None if row[3] == None else row[3].strip()
             card_rarity = None if row[4] == None else row[4].strip()
-            card_attribute = None if row[5] == None else row[5].strip()
-            card_sub_type = None if row[6] == None else row[6].strip()
-            card_text = None if row[7] == None else row[7].strip()
+            card_attribute = None if row[6] == None else row[6].strip()
+            card_sub_type = None if row[7] == None else row[7].strip()
+            card_text = None if row[11] == None else row[11].strip()
 
             card_level =  '' if row[8] == None else row[8].strip()
             card_level = "-1" if card_level == '?' else card_level

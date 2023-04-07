@@ -47,6 +47,7 @@ functions:
 
   create:
     handler: lambda/create.handler
+    timeout: 180
     events:
       - http:
           path: /create
