@@ -1,0 +1,83 @@
+service: serverless-yugioh
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-2
+  stage: dev
+  environment:
+    db_host: 
+       Fn::GetAtt:
+        - DatabaseInstance
+        - Endpoint.Address
+    db_name: yugioh_data_warehouse
+    db_user: root
+    db_pass: admin#root1003.
+
+
+functions:
+  load:
+    handler: lambda/load.handler
+    events:
+      - s3:
+          bucket: yugioh-dataset
+          event: s3:ObjectCreated:*
+          rules:
+            - prefix: dataset/
+            - suffix: .csv
+          existing: true 
+
+  create:
+    handler: lambda/create.handler
+    events:
+      - http:
+          path: /create
+          method: GET
+          cors: true
+    vpc:
+      securityGroupIds:
+        - Fn::GetAtt: 
+          - ServerlessSecurityGroup
+          - GroupId
+      subnetIds:
+        - Ref: SubnetPrivate1
+
+  fetch:
+    handler: lambda/fetch.handler
+    events:
+      - http:
+          path: /fetch
+          method: GET
+          cors: true
+    vpc:
+      securityGroupIds:
+        - Fn::GetAtt: 
+          - ServerlessSecurityGroup
+          - GroupId
+      subnetIds:
+        - Ref: SubnetPrivate1
+
+  hello:
+    handler: lambda/app.hello
+    events:
+      - http:
+          path: /hello
+          method: GET
+          cors: true
+    vpc:
+      securityGroupIds:
+        - Fn::GetAtt: 
+          - ServerlessSecurityGroup
+          - GroupId
+      subnetIds:
+        - Ref: SubnetPrivate1
+
+plugins:
+  - serverless-python-requirements
+
+resources:
+  - ${file(resources/infrastructure-stack.yml)}
+
+  
