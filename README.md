@@ -60,4 +60,4 @@ Silvio Urizar 23008607\
 \
 Enlace para video:
 
-[Video](https://www.youtube.com/watch?v=oHg5SJYRHA0)
+[Video](https://youtu.be/oHg5SJYRHA0?t=1)
