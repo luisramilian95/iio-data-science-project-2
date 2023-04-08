@@ -19,16 +19,16 @@ Análisis de los YugioH
 git clone https://github.com/luisramilian95/iio-data-science-project-2
 ```
 
-2. Instalar las dependencias  
-
-```
-npm install 
-```
-
-3. Ir a la carpeta serverless
+2. Ir a la carpeta serverless
 
 ```
 cd serverless
+```
+
+3. Instalar las dependencias  
+
+```
+npm install 
 ```
 
 4. Desplegar las lambdas
