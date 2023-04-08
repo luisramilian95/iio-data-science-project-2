@@ -5,13 +5,13 @@
 
 Análisis de los YugioH
 
-## Requerimientos 
+## Requerimientos
 
 - [npm](https://www.npmjs.com/)
 - [serverless framework](https://www.serverless.com/)
 - [python3](https://www.python.org/downloads/)
 
-## Instalación 
+## Instalación
 
 1. Clonar el repositorio  
 
@@ -28,7 +28,7 @@ cd serverless
 3. Instalar las dependencias  
 
 ```
-npm install 
+npm install
 ```
 
 4. Desplegar las lambdas
@@ -39,15 +39,15 @@ sls deploy
 
 5. Subir los archivos al bucket `yugioh-dataset`
 
-6. Instalar las dependencias 
+6. Instalar las dependencias
    1. numpy
    2. pandas
    3. requests
-   
+
 7. Correr el archivo `main.ipynb`
 
 
-## Arquitectura de AWS 
+## Arquitectura de AWS
 
 ![Arquitecture](architecture.png)
 
@@ -59,3 +59,5 @@ Silvio Urizar 23008607\
 \
 \
 Enlace para video:
+
+![Video](https://www.youtube.com/watch?v=oHg5SJYRHA0)
