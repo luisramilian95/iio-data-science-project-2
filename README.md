@@ -3,7 +3,7 @@
 
 ## Descripción
 
-Análisis de los deck de Yugioh 
+Análisis de los YugioH
 
 ## Requerimientos 
 
