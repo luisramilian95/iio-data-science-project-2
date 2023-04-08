@@ -60,7 +60,7 @@ Silvio Urizar 23008607\
 \
 ## Reporte del proyecto:
 
-Abrir ReporteProyecto.ipnby
+Abrir ReporteProyecto.ipynb
 
 ## Enlace para video:
 
