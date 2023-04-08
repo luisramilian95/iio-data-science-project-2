@@ -58,6 +58,10 @@ Luis Ramírez 23008845\
 Silvio Urizar 23008607\
 \
 \
-Enlace para video:
+## Reporte del proyecto:
+
+Abrir ReporteProyecto.ipnby
+
+## Enlace para video:
 
 [Video](https://www.dailymotion.com/video/x5ykzv)
