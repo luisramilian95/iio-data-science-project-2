@@ -64,4 +64,4 @@ Abrir ReporteProyecto.ipynb
 
 ## Enlace para video:
 
-[Video](https://www.dailymotion.com/video/x5ykzv)
+[Video](https://youtu.be/1LOtu3y1A20)
