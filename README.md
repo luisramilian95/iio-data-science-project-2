@@ -16,7 +16,7 @@ Análisis de las cartas de YuGiOh!
 1. Clonar el repositorio  
 
 ```
-git clone https://github.com/luisramilian95/iio-data-science-project-2
+git clone https://github.com/luisramilian95/iio-data-science-project-2.git
 ```
 
 2. Ir a la carpeta serverless
