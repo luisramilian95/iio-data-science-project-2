@@ -3,7 +3,7 @@
 
 ## Descripción
 
-Análisis de los YugioH
+Análisis de las cartas de YuGiOh!
 
 ## Requerimientos
 
